@@ -1,0 +1,22 @@
+.soccer-ball{
+    color: #49B6E0;
+    display: flex;
+}
+.logo{
+    display: flex;
+}
+.navbar a {
+    display: flex;
+    align-items:  flex-end;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+}
+.fa{
+border: 1px solid black;
+border-radius: 50%;
+padding: 3px;
+}

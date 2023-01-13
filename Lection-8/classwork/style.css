@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url(/Lection-8/classwork/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: Open Sans Italic;
+  src: url(/Lection-8/classwork/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+body {
+  background-color: #faebc8;
+}
+.body {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+  border-radius: 1pc;
+  justify-content: center;
+  align-items: center;
+}
+.first-container,
+.second-container,
+.third-container {
+  text-align: left;
+  padding: 50px;
+  transform: translateX(50px);
+}
+.first-image,
+.second-image,
+.third-image {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.first-paragraph,
+.second-paragraph,
+.third-paragraph {
+  font-family: Open Sans;
+}
+.first-name,
+.second-name,
+.third-name {
+  text-shadow: 25px 25px 2px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  color: #995e55;
+  text-align: left;
+  font-family: Open Sans Italic;
+}

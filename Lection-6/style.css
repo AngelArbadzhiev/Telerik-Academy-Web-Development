@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(/Lection-6/Roboto-Thin.ttf);
+}
+body {
+  font-family: Roboto;
+}
+.line {
+  border-left: 3px solid #6e6e6e;
+  height: 125px;
+  float: left;
+}
+.welcome-heading {
+  margin-left: 20px;
+  letter-spacing: 3px;
+}
+.subtitle {
+  margin-left: 20px;
+  font-weight: 600;
+}
+.first-heading {
+  display: inline-block;
+  vertical-align: top;
+}
+.second-heading {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 350px;
+}
+.image-container {
+  display: flex;
+  align-items: center;
+}
+img {
+  margin-left: 45px;
+}
+.text {
+  display: inline-block;
+  vertical-align: top;
+}
+.paragraph {
+  display: inline-block;
+  font-weight: 100;
+  width: 600px;
+  column-count: 2;
+  column-gap: 20px;
+  font-weight: bold;
+}
+.text-container {
+  display: flex;
+  align-items: center;
+}
